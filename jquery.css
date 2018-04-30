@@ -1,0 +1,120 @@
+.header {color: rgb(209, 202, 202);
+padding-top:2%;
+font-family: 'Lobster', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 30px;
+color:orange;
+}
+
+#container{
+    background-color:rgb(53, 51, 51);
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center
+}
+
+#today{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:20px;
+    padding-top:2%;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color:orange;
+    color:white;
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+#date{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:20px;
+}
+
+#description{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size:20px;
+}
+
+#copyright{
+    padding-bottom:2%;
+}
+
+#thisWeek{
+    background-color:rgb(152, 152, 253);
+    padding-right:6%;
+    text-align:center;
+}
+
+#weatherList{
+    
+    list-style-type: none;
+    padding:0%;
+    padding-left:9%;
+    height:200px;
+}
+
+li{
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:rgb(243, 182, 67);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color:rgba(0,0,0,0.5);
+    display: inline-block;
+    margin-right:3%;
+    margin-top:10%;
+    
+}
+
+h1{
+    font-size: 20px;
+}
+
+#title{
+    color:orange;
+    margin:auto auto;
+}
+
+#icon{
+    height:70px;
+}
+
+#thisWeek{
+    height:700px;
+    background-image: url("./utils/img/nyc.jpg");  
+}
+
+#footer{
+    color:orange;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+@media only screen and (max-width: 1300px) {
+    li{
+        margin-top:0px;
+        display:block;
+        background-color:rgba(0,0,0,0.5);
+    }
+
+    #thisWeek{
+        padding-top:2%;
+        height:2000px;
+    }
+
+    #date{
+        font-size:30px;
+    }
+
+    #description{
+        font-size:30px;
+    }
+
+    #today{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+}
